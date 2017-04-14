@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Inputproperation</string>
+    <string name="leave_blank_error">Don\'t Leave Blank</string>
+    <string name="please_enter_proper_email">Please enter proper email id.</string>
+    <string name="please_enter_proper_mobile_no">Please enter proper mobile no.</string>
+    <string name="please_enter_proper_url">Please enter proper url</string>
+    <string name="please_enter_proper_username">Please enter proper %s</string>
+    <string name="please_enter_proper_pincode">Please enter proper  pincode</string>
+    <string name="please_enter_proper_age">Please enter proper age</string>
+    <string name="please_enter_proper_password">Please enter proper password or more then 6 character</string>
+</resources>

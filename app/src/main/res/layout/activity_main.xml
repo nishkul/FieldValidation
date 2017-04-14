@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.android.fieldvalidation.MainActivity">
+
+    <EditText
+            android:id="@+id/emailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email"/>
+    <EditText
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="age"/>
+
+    <EditText
+            android:id="@+id/mandertory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="mandertory"/>
+    <EditText
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="mobile"/>
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="age"/>
+    <EditText
+            android:id="@+id/conPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="conPwd"/>
+    <EditText
+            android:id="@+id/pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="pincode"/>
+    <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="username"/>
+
+    <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="url"/>
+
+    <Button android:layout_width="match_parent"
+            android:hint="Valid"
+            android:id="@+id/button"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
