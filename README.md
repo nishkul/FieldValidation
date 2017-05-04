@@ -8,9 +8,11 @@ Can be used with different type of edit field
 Ex.Email,Mobile no, username and etc 
 
 Sample code to use 
-       InputField inputField = new InputField.InputFieldBuilder().setInputView(emailEdtv).setErrorMsg("Please Enter Proper                                       EmailId").build();   
-       
-       
+
+
+
+                 InputField inputField = new InputField.InputFieldBuilder().setInputView(emailEdtv).setErrorMsg("Please Enter                                           Proper EmailId").build();   
+             
                 EmailValidation inputValidation = new EmailValidation(MainActivity.this, inputField);
                 inputValidation.isValid();
 
@@ -38,10 +40,9 @@ Sample code to use
                 userNameValidation.isValid();
 
 
-                InputField manderoty = new InputField.InputFieldBuilder().setInputView(mandertortEdtv).setErrorMsg("Don't leave blank ").build();
-                MandetoryFieldValidation mandetoryFieldValidation = new MandetoryFieldValidation(MainActivity.this, manderoty);
+                InputField manderoty = new InputField.InputFieldBuilder().setInputView(mandertortEdtv).setErrorMsg("Don't                                               leave blank ").build();
+                MandetoryFieldValidation mandetoryFieldValidation = new MandetoryFieldValidation(MainActivity.this,                                                                                 manderoty);
                 mandetoryFieldValidation.isValid();
-
 
                 InputField url = new InputField.InputFieldBuilder().setInputView(urlEdtv).build();
                 UrlValidation urlValidation = new UrlValidation(MainActivity.this, url);
